@@ -5,11 +5,14 @@ verify_ssl = true
 
 [dev-packages]
 black = "*"
+pylint = "*"
+rope = "*"
 
 [packages]
+sympy="*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.7.5"
 
 [pipenv]
 allow_prereleases = true
